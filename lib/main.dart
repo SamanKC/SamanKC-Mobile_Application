@@ -45,8 +45,7 @@ class WebViewPage extends StatelessWidget {
     ..loadRequest(Uri.parse('https://samankc.com.np'));
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      
+    return Scaffold(git
       body: WebViewWidget(controller: controller),
     );
   }
